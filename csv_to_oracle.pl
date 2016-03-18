@@ -93,7 +93,6 @@ sub report_error {
 					AuthPass=>'password'
 					);
 	$err_msg->send();
-	my $err_time = DateTime->now();
 	exit;
 }
 
